@@ -4,4 +4,29 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --black: #1A1D23;
+  --pink: #FF57B2;
+  --gray-50: #f8f8f8;
+  --gray: #D7D7D7;
+  --gray-600: #BBBBBB;
+}
+
+body {
+  background: var(--black);
+  font: 400 1rem Inter, sans-serif;
+}
+
+h1, h2, h3, h4, strong {
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  font: 400 1rem Inter, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
